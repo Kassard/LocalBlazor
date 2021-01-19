@@ -19,6 +19,8 @@ namespace LocalBlazor
         {
             Configuration = configuration;
         }
+        
+        //tmp
 
         public IConfiguration Configuration { get; }
 
