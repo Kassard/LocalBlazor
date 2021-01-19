@@ -22,6 +22,7 @@ namespace LocalBlazor
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    //tmp comment
                     webBuilder.UseStartup<Startup>();
                 });
     }
